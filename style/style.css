@@ -1,0 +1,214 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0 !important;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSanslight";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "robato";
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+.wrapper {
+  max-width: 100%;
+}
+
+.header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 15px 10px 15px;
+}
+
+.header a {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.header-logo {
+  background: url(../icons/logo.png) no-repeat;
+  background-size: 192px;
+  padding: 20px 20px 20px 0px;
+  float: left;
+  font-family: OpenSanslight;
+  line-height: 31px;
+}
+
+.header-menu {
+  float: right;
+  width: 800px;
+}
+
+.header-menu-button-сall {
+  width: 186px;
+  border-radius: 20px;
+  line-height: 36px;
+  font-size: 15px;
+  margin: 0px 15px 20px 0px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.header-menu-button-сall:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.header-menu-button-сall-icon {
+  background-image: url(../icons/tel.png);
+  padding: 8px 16px;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 9px;
+  background-position: center;
+}
+
+.header-menu-button-entry {
+  width: 122px;
+  border-radius: 20px;
+  line-height: 36px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin: 0px 10px 0px 15px;
+  color: #f1f1f1;
+  background-color: black;
+}
+
+.header-menu-button-entry:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.bag-icon {
+  background: url(../icons/bag.svg) center center no-repeat;
+  padding: 16px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.wrapper1 {
+  max-width: 100%;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: inset 0px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white;
+          box-shadow: inset 0px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white;
+  margin-top: 44px;
+}
+
+.main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 77px;
+  font-family: OpenSans;
+  padding-bottom: 85px;
+}
+
+.main p {
+  font-family: OpenSanslight;
+  padding-top: 11px;
+}
+
+.offer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  color: #c5c5c5;
+}
+
+.offer-text h4 {
+  color: black;
+}
+
+.offer-text p {
+  color: black;
+  font-family: OpenSanslight;
+}
+
+.offer-pic-one {
+  background-image: url(../icons/formula-icon.png);
+  padding: 49px;
+  background-size: 76px;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: center;
+  -webkit-box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.offer-pic-two {
+  background-image: url(../icons/rassilka-icon.png);
+  padding: 49px;
+  background-size: 56px;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: center;
+  -webkit-box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.offer-pic-three {
+  background-image: url(../icons/sobesedovanie-icon.png);
+  padding: 49px;
+  background-size: 76px;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: center;
+  -webkit-box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.offer-pic-four {
+  background-image: url(../icons/rezume-like-icon.png);
+  padding: 49px;
+  background-size: 76px;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: center;
+  -webkit-box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  margin-top: 35px;
+  margin-left: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 11px rgba(0, 0, 0, 0.14), 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+/*# sourceMappingURL=style.css.map */
+
